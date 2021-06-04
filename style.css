@@ -362,4 +362,21 @@ h2.cv-tittle {
     margin-bottom: 10px;
 }
 
+/* Car Story */
+
+.responsive {
+    max-width: 400px;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+}
+.flex-container>div {
+    margin: 10px;
+    padding: 40px 40px;
+    width: 400px;
+    font-size: 15px;
+    text-align: justify;
+}
+
 

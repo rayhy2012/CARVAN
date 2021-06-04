@@ -1,63 +1,60 @@
-.name{
-       background-color:#f4f7f9;
-       border-radius:2px;
-       width:100%; 
-       padding:10px; 
-       border:none; 
-       height:40px;
-    }
-  .mail{
-    background-color:#f4f7f9; 
-    border-radius:2px;
-    padding:10px; 
-   
-    border:none; 
-    height:40px;
-  }
-  .message{
-    background-color:#f4f7f9; 
-    border-radius:2px;
-    width:100%; 
-    padding:10px; 
-    border:none; 
-  
-    height:100px;
-    }
-    .bttn{
-            background-color:#00979d;
-            color: white;
-            transition: .8s;
-            line-height: 50%;
-            width:100%;
-            padding:10px; 
-            text-decoration:none; 
-            border:none; 
-           
-            height:35px;
-  }
-
-  .bttn:hover{
-    background-color: #006f73;
-    color:white;
-    border-radius:5px;
+.name {
+  background-color:#f4f7f9;
+  border-radius:2px;
+  width:100%; 
+  padding:10px; 
+  border:none; 
+  height:40px;
 }
- .col-sm-4 ul li{
+.mail {
+  background-color:#f4f7f9; 
+  border-radius:2px;
+  padding:10px; 
+  border:none; 
+  height:40px;
+}
+.message {
+  background-color:#f4f7f9; 
+  border-radius:2px;
+  width:100%; 
+  padding:10px; 
+  border:none; 
+  height:100px;
+}
+.bttn {
+  background-color:#00979d;
+  color: white;
+  transition: .8s;
+  line-height: 50%;
+  width:100%;
+  padding:10px; 
+  text-decoration:none; 
+  border:none; 
+  height:35px;
+}
+.bttn:hover {
+  background-color: #006f73;
+  color:white;
+  border-radius:5px;
+}
+.col-sm-4 ul li {
 padding-left: 50px;padding-right: 0px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-size: 25px;
 list-style-type: none;
-}#pab{
+}
+#pab {
 border-left: 1px solid black;
 border-right: 1px solid black;
 }
-#pad1{
+#pad1 {
 border-left: 1px solid black;
 border-right: 1px solid black;}
-#bk{
-    padding:130px;
-    width: 100%;
- }
-#cbb{
+#bk {
+  padding:130px;
+  width: 100%;
+}
+#cbb {
 font-family:Georgia, 'Times New Roman', Times, serif;
 color: #FFFFFF;
 width:100%;
@@ -68,21 +65,20 @@ font-weight: bold;
 animation-name: cbb;
 animation-duration: 2s;
 animation-direction: alternate;
-
 }
 @keyframes cbb{
-    0%{ 
-        width:300%;
-           }
-    50%{
-      
+0%{ 
+    width:300%;
+       }
+50%{
+  
+}
+70%{
+     
+  }
+100%{
     }
-    70%{
-         
-      }
-    100%{
-          }
-     }
+}
 
 
 

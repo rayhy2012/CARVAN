@@ -215,6 +215,8 @@ h2.cv-tittle {
 }
 .single-product .cv-col-2 img {
     padding: 0;
+    max-height: 300px;
+    object-fit: cover;
 }
 .single-product .cv-col-2 {
     padding: 20px;
@@ -265,6 +267,8 @@ h2.cv-tittle {
 .product-description img {
     width: 90%;
     padding: 20px;
+    max-height: 550px;
+    object-fit: cover;
 }
 .product-description iframe {
     margin-top: 20px;

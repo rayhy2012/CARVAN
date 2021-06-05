@@ -22,7 +22,7 @@ html {
 }
 .car-overview p {
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
     max-width: 950px;
     margin: 20px auto;
 }

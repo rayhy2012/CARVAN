@@ -1,57 +1,57 @@
 .name{
-       background-color:#f4f7f9;
-       border-radius:2px;
-       width:100%; 
-       padding:10px; 
-       border:none; 
-       height:40px;
-       margin-bottom: 5px;
-    }
-  .mail{
-    background-color:#f4f7f9; 
-    border-radius:2px;
-    padding:10px; 
-    margin-right: 5px;
-    border:none; 
-    height:40px;
-  }
-  .tel{
-    background-color:#f4f7f9; 
-    border-radius:2px;
-    padding:10px; 
-     border:none; 
-    height:40px;
-    margin-bottom: 5px;
-  }
-  .message{
-    background-color:#f4f7f9; 
-    border-radius:2px;
-    width:100%; 
-    padding:10px; 
-   border:none; 
-    margin-bottom: 20px;
-    height:110px;
- 
-    }
-    .bttn{
-            background-color:#00979d;
-            color: white;
-            transition: .8s;
-            line-height: 50%;
-            width:100%;
-            padding:10px; 
-            text-decoration:none; 
-            border:none; 
-           
-            height:35px;
-  }
-
-  .bttn:hover{
-    background-color: #006f73;
-    color:white;
-    border-radius:5px;
+  background-color:#f4f7f9;
+  border-radius:2px;
+  width:100%; 
+  padding:10px; 
+  border:none; 
+  height:40px;
+  margin-bottom: 5px;
 }
- .col-sm-4 ul li{
+.mail{
+background-color:#f4f7f9; 
+border-radius:2px;
+padding:10px; 
+margin-right: 5px;
+border:none; 
+height:40px;
+}
+.tel{
+background-color:#f4f7f9; 
+border-radius:2px;
+padding:10px; 
+border:none; 
+height:40px;
+margin-bottom: 5px;
+}
+.message{
+background-color:#f4f7f9; 
+border-radius:2px;
+width:100%; 
+padding:10px; 
+border:none; 
+margin-bottom: 20px;
+height:110px;
+
+}
+.bttn{
+       background-color:#00979d;
+       color: white;
+       transition: .8s;
+       line-height: 50%;
+       width:100%;
+       padding:10px; 
+       text-decoration:none; 
+       border:none; 
+      
+       height:35px;
+}
+
+.bttn:hover{
+background-color: #006f73;
+color:white;
+border-radius:5px;
+}
+.col-sm-4 ul li{
 padding-left: 50px;
 
 font-size: 20px;
@@ -67,10 +67,10 @@ margin-bottom: 30px;
 border-left: 1px solid black;
 border-right: 1px solid black;}
 #bk{
-    padding:130px;
-    width: 100%;
-    margin-bottom: 25px;
- }
+padding:130px;
+width: 100%;
+margin-bottom: 25px;
+}
 #cbb{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: #FFFFFF;
@@ -85,22 +85,15 @@ animation-direction: alternate;
 
 }
 @keyframes cbb{
-    0%{ 
-        width:300%;
-           }
-    50%{
-      
-    }
-    70%{
-         
+0%{ 
+   width:300%;
       }
-    100%{
-          }
-     }
-
-
-
-
-
-  
+50%{
  
+}
+70%{
+    
+ }
+100%{
+     }
+}

@@ -43,7 +43,6 @@ height:110px;
        text-decoration:none; 
        border-radius: 30px;
        border:none; 
-      
        height:35px;
 }
 
@@ -51,32 +50,47 @@ height:110px;
 background-color: #563434;
 color:white;
 }
-.col-sm-4 ul li{
-padding-left: 50px;
+#contaibox{
+  margin-bottom: 50px;
+}
+#padC ,#padL ,#padR{
+padding-left: 100px;
+}
+#padC ul li{
+  list-style-type: none;
+  line-height: 35px;
+}
+#padC{
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
+#padL ul li{
+  list-style-type: none;
+  line-height: 35px;
+}
+#padL{
+  border-left: 1px solid black;
+}
+#padR ul li{
+  list-style-type: none;
+  
+  line-height: 35px;
+}
+#padR{
+  border-right: 1px solid black;
+}
 
-font-size: 20px;
-list-style-type: none;
-margin-bottom: 15px;
-}
-#pab{
-border-left: 1px solid black;
-border-right: 1px solid black;
-margin-bottom: 30px;
-}
-#pad1{
-border-left: 1px solid black;
-border-right: 1px solid black;}
 #bk{
-padding:130px;
-width: 100%;
-margin-bottom: 25px;
+padding:140px;
+margin-bottom: 50px;
+
 }
 #cbb{
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 color: #FFFFFF;
 width:100%;
 float:right;
-margin-top: -100px;
+margin-top: -112px;
 font-size:50px;
 font-weight: bold;
 animation-name: cbb;

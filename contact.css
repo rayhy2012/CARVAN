@@ -34,22 +34,22 @@ height:110px;
 
 }
 .bttn{
-       background-color:#00979d;
+       background-color:#ff523b;
        color: white;
-       transition: .8s;
+       transition: .5s;
        line-height: 50%;
        width:100%;
        padding:10px; 
        text-decoration:none; 
+       border-radius: 30px;
        border:none; 
       
        height:35px;
 }
 
 .bttn:hover{
-background-color: #006f73;
+background-color: #563434;
 color:white;
-border-radius:5px;
 }
 .col-sm-4 ul li{
 padding-left: 50px;

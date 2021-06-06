@@ -1,0 +1,375 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/* Nav-bar */
+
+
+nav{
+    background: white;
+}
+
+nav::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+nav .logo{
+    float: left;
+    padding-left: 30px;
+    line-height: 80px;
+    margin-top: 20px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+    margin-top: 10px;
+}
+nav ul li{
+    
+    display: inline-block;
+    background: white;
+    margin: 0 10px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    line-height: 100px;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    border-radius: 5px;
+    color: #ff523b;
+    text-decoration: none;
+}
+nav ul ul{
+    position: absolute;
+    top: 90px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+nav ul li:hover > ul{
+    top: 70px;
+    opacity: 1;
+    visibility: visible;
+}
+nav ul ul li{
+    position: relative;
+    margin: 0px;
+    width: 160px;
+    float: none;
+    display: list-item;
+}
+nav ul ul li a{
+    line-height: 50px;
+}
+nav ul ul ul li{
+    position: relative;
+    top: -70px;
+    left: 160px;
+}
+
+
+/* Header section */
+
+.cv-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cv-col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.cv-col-2 img {
+    max-width: 100%;
+    padding: 50px 0;
+}
+.cv-col-2 h1 {
+    line-height: 62px;
+    margin: 25px 0;
+}
+
+
+/* Slider */
+
+.carousel {
+    margin-bottom: 80px;
+}
+.carousel .carousel-inner {
+    height: 650px;
+}
+.carousel-inner .carousel-item img {
+    min-height: 200px; /* prevent it from stretch in screen size < than 768px */
+    object-fit: cover;
+}
+#carouselExampleIndicators{
+    z-index: -1;
+}
+
+/* Button  */
+
+.btn-hero {
+    display: inline-block;
+    background: #ff523b;
+    color: white; 
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.btn-hero:hover {
+    background: #563434;
+    color: white;
+    text-decoration: none;
+}
+
+/* Featured Categories */
+.categories {
+    margin: 70px 0;
+}
+.col-3 {
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img {
+    width: 100%;
+}
+.cv-small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+/* Featured Products */
+.cv-col-4 {
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.5s;
+}
+.cv-col-4 img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+h2.cv-tittle {
+    font-weight: 600;
+    font-size: 26px;
+}
+.cv-tittle {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.cv-tittle::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cv-col-4 h4 {
+    color: #555;
+    font-weight: normal;
+    font-size: 16px;
+}
+.car-details h4 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+.car-details .brand-logo {
+    width: 75%;
+}
+.cv-col-4 p {
+    font-size: 14px;
+}
+.rating .fa {
+    color: #ff523b;
+}
+.cv-col-4:hover {
+    transform: translateY(-5px);
+}
+
+/* Detail page - Tittle section */
+.row-2 {
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+.cv-row h2 {
+    font-weight: 600;
+    font-size: 24px;
+} 
+
+/* Single product details */
+
+.single-product {
+    margin-top: 80px;
+}
+.single-product .cv-col-2 img {
+    padding: 0;
+}
+.single-product .cv-col-2 {
+    padding: 20px;
+}
+.single-product h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff523b;
+}
+.single-product h3 {
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.single-product .cv-col-2 h1 {
+    font-weight: 700;
+}
+.single-product .fa {
+    color: #ff523b;
+    margin-left: 10px;
+}
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Product Description */
+.product-description h4 {
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+.product-description p {
+    margin-top: 20px;
+}
+.product-description hr {
+    margin-top: 50px;
+}
+.product-description .car-detail {
+    text-align: center;
+}
+.product-description img {
+    width: 90%;
+    padding: 20px;
+}
+.product-description iframe {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 85%;
+    height: 450px;
+}
+
+/* Responsive for Menu */
+.menu-icon {
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+@media only screen and (max-width: 700px) {
+    .cv-navbar ul {
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden; 
+        transition: max-height 0.5s;
+    }
+    .cv-navbar ul li {
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .cv-navbar ul li a {
+        color: white;
+    }
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+    }
+}
+/* Responsive */
+@media only screen and (max-width: 700px) {
+    .cv-row {
+        text-align: center;
+    }
+    .cv-col-2, .col-3, .cv-col-4 {
+        flex-basis: 100%;
+    }
+    .carousel-inner > .item > img { 
+        width: 640px; 
+        height: 360px; 
+    }
+    .carousel {
+        margin-bottom: -280px;
+    }
+    .single-product .cv-row {
+        text-align: left;
+    }
+    .single-product .cv-col-2 {
+        padding: 20px 0;
+    }
+    .single-product h1 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .product-description iframe {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+
+/* Footer section  */
+.footer1{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    background-color: black;
+    color: white;
+}
+.footer1 h1{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+.footer1 p{
+    color: white;
+}
+.icons .fab{
+    color: white;
+    margin: 0 13px;
+    padding: 18px 0;
+}
+.footer1 img {
+    width: 180px;
+    margin-bottom: 10px;
+}
+
+

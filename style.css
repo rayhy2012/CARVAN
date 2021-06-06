@@ -76,7 +76,7 @@ nav ul ul ul li{
 
 
 /*--- responsive nav---*/
-.cv-show, input, .icon-1{
+.cv-show, nav input, .icon-1{
     display: none;
 }
 @media all and (max-width: 700px) {
@@ -376,7 +376,7 @@ h2.cv-tittle {
     .cv-row {
         text-align: center;
     }
-    .cv-col-2, .col-3, .cv-col-4 {
+    .cv-col-2, .cv-col-4 {
         flex-basis: 100%;
     }
     .carousel-inner > .item > img { 
@@ -401,6 +401,11 @@ h2.cv-tittle {
         margin-bottom: 20px;
         width: 100%;
     }
+    .car-detail {
+        text-align: center;
+    }
+
+
 }
 
 
@@ -537,12 +542,10 @@ h2.cv-tittle {
   
   }
   #cbb{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #FFFFFF;
   width:100%;
   float:right;
-  margin-top: -112px;
-  font-size:50px;
+  margin-top: -103px;
   font-weight: bold;
   animation-name: cbb;
   animation-duration: 2s;

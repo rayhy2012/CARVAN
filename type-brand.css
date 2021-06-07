@@ -22,9 +22,9 @@ html {
 }
 .car-overview p {
     font-size: 16px;
-    text-align: center;
+    text-align: justify;
     max-width: 950px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .car__dislay {
     margin: 70px;
@@ -57,43 +57,57 @@ html {
 .car-brand__info img {
     width: 48px;
     object-fit: contain;
-    margin-bottom: 50px;
 }
-
+.car-brand img {
+    width: 48px;
+    object-fit: contain;
+    margin-top: 40px;
+}
 .car-brand h3 {
     font-size: 18px;
     font-weight: 600;
     margin: 20px auto;
 }
-.overview__car,
-.car__product-item {
+.overview__car{
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    margin: 30px 20px;
+    margin: 40px 20px;
     border-radius: 10px;
     transition: transform 0.5s;
 } 
-.overview__car:hover,
-.car__product-item:hover a {
+.overview__car:hover  {
     text-decoration: none;
     transform: translateY(-5px);
 }
-.overview__car img,
-.car__product-item img {
+.overview__car img {
     width: 240px;
     object-fit: contain;
 }
-.car__product-item h4 {
-    font-size: 16px;
-    margin-top: 10px;
-    color: #575757;
-}
-.overview__car-info p,
-.car__product-item p {
+.overview__car-info p {
+    text-align: left;
     font-size: 16px;
     margin-top: 5px;
     color: #000;
+}
+.overview__car-info h5 {
+    margin-top: 10px;
+    color: #575757;
+    font-size: 16px;
+}
+/* Button for more details */
+.car-btn {
+    margin-top: 10px;
+    background-color: #ff523b;
+    padding: 8px 70px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.car-btn:hover {
+    background: #563434;
+    text-decoration: none;
+    color: #fff;
 }
 
 /* Responsive for Car Brand Page */
@@ -114,31 +128,34 @@ html {
         font-weight: bold;
         margin: 5px 0;
     }
-    .car-overview p,
-    .overview__car-info p {
-        text-align: left;
+    .car-overview p {
+        text-align: justify;
         font-size: 12px;
         margin: 5px 0;
     }
     .car-brand__info h2,
-    .car__product h3 {
+    .car-brand h3 {
         font-size: 14px;
         font-weight: 700;
         margin-bottom: 30px;
     }
+    .car-brand img, 
     .car-brand__info img {
         width: 36px;
         object-fit: contain;
     }
-    .car__product-item h4 {
+    .car-overview h5 {
         font-size: 12px;
         margin-top: 10px;
-        color: #575757;
     }
-    .car__product-item p {
+    .overview__car-info p {
         font-size: 12px;
         margin-top: 5px;
         color: #000;
+    }
+    .car__dislay {
+        display: flex;
+        flex-direction: column;
     }
 
 }

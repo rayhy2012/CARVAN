@@ -167,9 +167,9 @@ nav ul ul ul li{
     margin-bottom: 80px;
 }
 .carousel .carousel-inner {
-    height: 100vh;
+    height: 100vh;  
 } 
-.carousel-inner .carousel-item img {
+.carousel-inner img {
     min-height: 200px; /* prevent it from stretch in screen size < than 768px */
     object-fit: cover;
 }
